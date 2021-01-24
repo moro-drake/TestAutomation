@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Report parallel sample" verbose="1" thread-count="10" parallel="methods">
+    <listeners>
+        <listener class-name="AttachFailureLogsToAllure"></listener>
+    </listeners>
+    <test name="samplePage Test">
+        <classes>
+            <class name="SampleTest"/>
+        </classes>
+    </test>
+</suite>
