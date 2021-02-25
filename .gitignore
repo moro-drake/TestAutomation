@@ -1,3 +1,4 @@
 /reports/.allure/
+*/target/
 /TestAutomation.iml
 /.idea/
